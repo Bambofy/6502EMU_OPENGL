@@ -6,4 +6,19 @@
     <RootNamespace>_6502EMU</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Veldrid" Version="4.5.0" />
+    <PackageReference Include="Veldrid.SPIRV" Version="1.0.7" />
+    <PackageReference Include="Veldrid.StartupUtilities" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="p1.6502asm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="p2.6502asm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
